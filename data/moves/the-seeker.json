@@ -1,0 +1,301 @@
+[
+  {
+    "id": "sk001",
+    "title": "Patriot",
+    "description": "These people are family. Chaos grows all around, but you’ll be damned if you’ll let your family come to harm. Damned indeed.You have sought out and embraced dark power to protect that which you hold dear. Or perhaps that power fell upon you, and you took it up for the greater good. Either way, you seek more",
+    "outcomes": [{
+      "text": "You start with the Let's Make a Deal move and are Well Versed in the Things Below (go mark them now). You've also acquired 1 major arcanum:"
+    }],
+    "category": "Background",
+    "pick": [
+      "◇ The Hee'Tumel Codex",
+      "◇ The Red Scepter",
+      "◇ The Staff of the Lidless Orb"
+    ]
+  },
+  {
+    "id": "skbg2",
+    "title": "Antiquarian",
+    "description": "The past has buried many secrets, and you are de-termined to dig them up. Years of study across the land have led you here, and you are convinced that this town holds the key to your greatest discoveries. What is it you hope to find? What is it that keeps you here?",
+    "category": "Background",
+    "outcomes": [
+      {"text": "Your travels and studies mean that you start with the Polyglot move and that you are Well Versed in the Makers and their arts (go mark them now). You've also acquired 1 major arcanum:"}
+    ],
+    "pick": [
+      "◇ Noruba's Ice-Sphere",
+      "◇ The Azure Hand",
+      "◇◇ The Mindgem"
+    ]
+  },
+  {
+    "id":"skbg3",
+    "title": "Witch Hunter",
+    "description": "You’ve dedicated your life to rooting out and destroying horrors and their servants. What set you down this path? What did you sacrifice to walk it? What led you to call Stonetop home?",
+    "category": "Background",
+    "outcomes": [
+      {"text": "You start with the Everything Bleeds move and are Well Versed in (pick 1) the fae, the Things Below, or the Last Door and what lies beyond (go mark them now). You've also acquired 1 major arcanum:"}
+    ],
+    "pick": [
+      "◇ The demonhide Cloak",
+      "The Redwood Effigy",
+      "◇◇ The Twisted Spear"
+    ]
+  },
+  {
+    "id":"ssp",
+    "title":"Pick 2 (in addition to your scribe's tools)",
+    "category": "Special Possessions",
+    "tracks": [
+    {
+      "name": "Whisky",
+      "max": 2,
+      "shape": "square"
+    },
+    {
+      "name": "Naptha",
+      "max": 5,
+      "shape": "hexagon"
+    }
+  ],
+    "pick": [
+      "Books and Scrolls: Expend a use to consult your collection and turn a Know Things roll you just made into a 10+",
+      "Distillery: skins of fine whisky (2 uses, grants advantage to Persuade), copper tubes, malt, ◇◇ firkins, stills, barrels, etc.",
+      "Engineer's tools: rulers, tapes, rods, plumb-bobs, ◇ tripods, ◇ block & tackles, wheelbarrow, etc.",
+      "Laboratory: chemics, reagents, vials, measures, ◇ scales, ◇ decanters, etc. Every season,produce d4-1 uses of ◇ naphtha (thrown, area, dangerous, ignores armor)",
+      "Paraphernalia: crystals, incense, talismans, blood, bone, horn, eye of newt, ◇ braziers, ◇◇ a cauldron, etc.",
+      "Trading contacts: small amounts of salt, glass, silk, spice, medicinal herbs, pigments, ivory, etc"
+    ]
+  },
+  {
+    "id": "sk002",
+    "title": "Attuned",
+    "description": "When you Seek Insight, you can always ask, \"What here is infused with magic?\" for free, even on a 6-."
+  },
+  {
+    "id": "sk003",
+    "title": "Conduit of Power",
+    "tracks": [
+      {
+        "name": "Conduits",
+        "max": 3,
+        "shape": "circle"
+      }
+    ],
+    "description": "When you would mark a Consequence from a major arcanum, you can mark 1 box here instead, with no negative effect. (These marks never clear.)"
+  },
+  {
+    "id": "sk004",
+    "title": "Let's Make a Deal",
+    "description": "When you Seek Insight, add \"What do they really want or need?\" to the list of questions. When you Persuade by offering them something that you know they want or need, treat a 7-9 as a 10+."
+  },
+  {
+    "id": "sk005",
+    "title": "Well Versed",
+    "multiple": 3,
+    "description": "Mark 1 topic, in addition to the one noted in your Background. Each additional time you take this move, mark 2 more topics.",
+    "pick": [
+      "The Last Door, death, and the undead",
+      "The civilizations of humanity",
+      "The Fae and their strange ways",
+      "The Makers and their arts",
+      "The primordial powers",
+      "The Things Below",
+      "The wild world and its spirits"
+    ],
+    "outcomes": [
+      {
+        "range": "",
+        "text": "When you Know Things about one of your topics, you can ask the GM a follow-up question of your choice (even on a 6-)"
+      }
+    ]
+
+  },
+  {
+    "id": "sk006",
+    "title": "Work with what you've got (+Intelligence)",
+    "description": "When you cleverly use your environment to harm or impede your foe(s), roll +Intelligence",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Pick 2:",
+        "bullets": [
+          "Interrupt or thwart their action(s)",
+          "Create an opportunity that grants you or an ally advantage on the next roll to exploit it",
+          "Deal damage appropriate to the source (d4 for bruises/scrapes, d6 for bloodshed, d8 if it'd break bones, d10 if it'd kill a common person"
+        ]
+      },
+      {
+        "range": "7-9",
+        "text": "Pick 1"
+      }
+    ]
+  },
+  {
+    "id": "sk015",
+    "title": "Countermeasures",
+    "description": "When you witness a magical effect, you may ask the GM, \"how can this be countered or interrupted?\" and get an honest answer. You or an ally gain advantage on your next roll to act on the answer."
+  },
+  {
+    "id": "sk016",
+    "title": "Everything Bleeds",
+    "description": "When you exploit an unnatural foe's specific weakness or vulnerability, deal +1d6 damage."
+  },
+  {
+    "id": "sk017",
+    "title": "Everything Burns (+Intelligence)",
+    "description": "When you inspect a work of artifice or magic for a fatal flaw, roll +INT:",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "The GM will reveal the best way to destroy/sabotage it, and you or an ally also gain advantage to act on the info."
+      },
+      {
+        "range": "7-9",
+        "text": "The GM will reveal the best way to destroy/sabotage it."
+      }
+    ]
+  },
+  {
+    "id": "sk018",
+    "title": "Initiate of the Secret Arts (Requires level 2+ and the Seeker)",
+    "tracks": [
+      {
+        "name": "Stock",
+        "max": 3,
+        "shape": "circle"
+      }
+    ],
+    "multiple": 3,
+    "description": "You have a \"Sacred Pouch\" (3 Stock, magical), as per the Blessed, but with no remarkable traits. Each time you take this move, choose a Blessed move for which you otherwise qualify. (You can't take Improved Stat or Superior Stat.)",
+    "takeFrom": ["The Blessed"],
+    "takeCategory": ["Moves"]
+
+  },
+  {
+    "id": "sk019",
+    "title": "Logbook",
+    "description": "You have a logbook (2 uses, slow) that doesn't take up space in your inventory. When you (and only you) consult your logbook and expend a use, you can ignore a Know Things roll you just made and treat the result as a 10+. When the Seasons Change, reset your logbook to 2 uses.",
+    "tracks": [
+      {
+        "name": "Logbook",
+        "max": 2,
+        "shape": "square"
+      }
+    ]
+  },
+  {
+    "id": "sk020",
+    "title": "Magpie (+Intelligence)",
+    "description": "When you Have What You Need, you can produce something strange, specific, maybe even valuable or a little bit magical, but if you do, tell us where you got it and 2 of the following:",
+    "outcomes": [
+      {
+        "text": "",
+        "bullets": [
+          "How it's not quite right, but maybe it'll do?",
+          "The trouble you caused back home by getting it",
+          "Why using it will draw unwanted attention",
+          "That it's the only thing like this that you've got, and why it'll only work the one time"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sk021",
+    "title": "Never at a Loss",
+    "description": "When you Know Things and roll a 6-, you may choose to not mark XP. If you don't mark XP, the worst that happens is that the GM tells you nothing interesting or useful about the subject, but instead tells you how you could learn more."
+  },
+  {
+    "id": "sk022",
+    "title": "Polyglot",
+    "description": "When you first encounter a living language in play, describe your proficiency with it (if any) and how you came to acquire it. When you Know Things about any script, text, runes or symbols that you encounter, you have advantage."
+  },
+  {
+    "id": "sk023",
+    "title": "Cryptologist (Requires Polyglot, +Intelligence)",
+    "description": "When you study encoded, forgotten, or arcane marks or writing, roll +INT:",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "You can fully decipher them in just a few minutes."
+      },
+      {
+        "range": "7-9",
+        "text": "You get the gist in a few minutes, but fully deciphering them will take you an hour or so."
+      }
+    ]
+  },
+  {
+    "id": "sk007",
+    "title": "Quick Study (+Intelligence)",
+    "description": "When you study something magical that should take months to understand, it instead takes mere weeks. If it should take weeks, it takes days. If it should take days, it takes only a few hours."
+  },
+  {
+    "id": "sk024",
+    "title": "Safety First",
+    "description": "When you spend an hour or so preparing your mystical defenses, hold 2 Protection. When you are affected by harmful magic, spend 1 Protection either to gain advantage on any roll to resist it or to halve its damage/effects."
+  },
+  {
+    "id": "sk025",
+    "title": "Sage Advice",
+    "description": "When another PC asks you for guidance, they get advantage on their next roll to follow your advice."
+  },
+  {
+    "id": "sk008",
+    "title": "Arcane Adept (Requires level 6+)",
+    "description": "When you wish to invent a spell or magical effect, detail its workings with the GM and Make a Plan to invent it. If you like, pick one requirement and ask the GM to provide an alternative (for example \"first you must _____\" could become \"first you must _____, or it will take months\").",
+    "weight": 1
+  },
+  {
+    "id": "sk026",
+    "title": "Deep Insight (Requires level 6+ and Attuned)",
+    "description": "When you Seek Insight about something magical, you may ask one additional question, not limited to the list. Even on a 6-, you get to ask this question.",
+    "weight": 1
+  },
+  {
+    "id": "sk027",
+    "title": "Improvise (Requires level 6+ and Quick Study)",
+    "description": "When you wish to use an arcanum's move or option without having unlocked it, ask the GM what fool risk(s) it requires and/or what consequence(s) you'll incur. If you go for it, roll +INT:",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "You get it to work this once—trigger the move or use the option as if you'd unlocked it—and also mark one step towards unlocking the arcanum's mysteries."
+      },
+      {
+        "range": "7-9",
+        "text": "You get it to work this once—trigger the move or use the option as if you'd unlocked it."
+      }
+    ],
+    "weight": 1
+  },
+  {
+    "id": "sk028",
+    "title": "Mind Over Magic (Requires level 6+)",
+    "description": "When you roll to study or use an arcanum, you can roll +INT instead of whatever stat you would normally roll.",
+    "weight": 1
+  },
+  {
+    "id": "sk009",
+    "title": "Overchannel (Requires level 6+ and Conduit of Power)",
+    "description": "When you would mark a Consequence from a major arcanum, you may mark a debility instead.",
+    "weight": 1
+  },
+  {
+    "id": "sk029",
+    "title": "Proof Against Detection (Requires level 6+ and Safety First)",
+    "description": "When you hold Protection, you can't be scried upon or sensed by magical means, and have advantage to Defy Danger by being stealthy.",
+    "weight": 1
+  },
+  {
+    "id": "si",
+    "title": "Instinct (Choose 1)",
+    "description": "You can change on levelling or when appropriate story events affect you.",
+    "category": "Instinct",
+    "pickOne": [
+      "CUNNING - To scheme, manipulate, and plot.",
+      "CURIOSITY - To seek answers that maybe you oughtn't.",
+      "HUBRIS - To assume you know best, that you can't fail.",
+      "MYSTERY - To avoid straight answers; to keep secrets.",
+      "VISION - To think big and pursue grandiose goals."
+    ]
+  }
+]

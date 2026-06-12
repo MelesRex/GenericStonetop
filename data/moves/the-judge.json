@@ -1,0 +1,316 @@
+[
+    {
+        "id": "jbg1",
+        "title": "Legacy",
+        "category": "Background",
+        "description": "You are the latest in a long line of Judges—born here, apprenticed to the prior Judge, and charged with the passing of the mantle. The Chronicle is a rich repository of lore, but there’s no index, so good luck finding anything.",
+        "outcomes": [
+            {
+                "range": "",
+                "text": "When you Know Thing about the people or history of stonetop, you have advantage."
+            },
+            {
+                "range": "",
+                "text": "When you spend days, weeks, or months poring over the Chronicle, ask the GM a question, and the GM will tell you what you learn in that time."
+            }
+        ]
+    },
+    {
+        "id": "jbg2",
+        "title": "Missionary",
+        "category": "Background",
+        "description": "You are part of a larger order of Aratis, sent toStonetop to spread the faith and protect the flicker-ing flame of civilization. The Chronicle is new and a work in progress; your position in town is far from certain.",
+        "outcomes": [
+            {
+                "range": "",
+                "text": "Add the following Judges to the Neighbors section of the Stonetop playbook:",
+                "bullets": [
+                    "Devin (from Marshedge)",
+                    "Haeris (from Gordin's Delve)",
+                    "Rahat (from Lygos)"
+                ]
+            },
+            {
+                "range": "",
+                "text": "When you call upon the Judges of another steading for aid or information, they are oath-bound to give it. You are likewise oathbound to support them."
+            },
+            {
+                "range": "",
+                "text": "You have an aviary in addition to your usual choice of special possessions. When you send a message via trained bird, as is the way of the Judges of your order, the GM will tell you if and when you receive a response , and what it says."
+            }
+        ]
+    },
+    {
+        "id": "jbg3",
+        "title": "Prophet (+Wisdom)",
+        "category": "Background",
+        "description": "The line of Judges was broken long ago, the Chronicle lost or fallen into ruin. Aratis has called you personally to her service though dreams, omens, and visions. Some in town resent the authority you've assumed. When you spend a few days communing with Aratis about a threat facing Stonetop or civilization as a whole, roll +Wisdom:",
+        "tracks": [
+            {
+                "name": "Sanction",
+                "max": 2,
+                "shape": "hexagon"
+            }
+        ],
+        "outcomes": [
+            {
+                "range": "10+",
+                "text": "Aratis reveals the course of action she would have you take; You hold 2 Sanction. While acting on her orders, spend 1 Sanction to add +1 to a roll you just made"
+            },
+            {
+                "range": "7-9",
+                "text": "As above but no Sanction."
+            }
+        ]
+    },
+    {
+        "id":"jc1",
+        "title": "The Chronicle (Good)",
+        "description": "The Judge of Aratis is charged with maintaining the Chronicle, a history of the community, its people, their knowledge, and their traditions. The nature of the lore contained in the Chronicle depends on your Background, but it is more than a mere book; it is a physical place.  Choose 3:",
+        "category": "Background",
+        "pick": [
+            
+            "... is a sturdy vault from the time of the Makers",
+            "... has plenty of room to grow",
+            "... is hidden underground",
+            "... has but one entrance, magically sealed",
+            "... bears minor magicks to preserve its contents",
+            "... is warded against spirits and magic",
+            "... includes your living quarters & office"
+        ]
+    },
+    {
+        "id":"jc2",
+        "title": "The Chronicle (Bad)",
+        "description": "Alas it... (choose 2)",
+        "category": "Background",
+        "pick": [
+            "... sits on the outskirts, near the Old Wall",
+            "... is cramped, chaotic, and overflowing",
+            "... is little more than a crude cellar",
+            "... seems to be haunted",
+            "... contains a few dangerous artifacts"
+        ]
+    },
+  {
+    "id":"jsp",
+    "title":"Pick",
+    "description": "Pick 1, in addition to your symbol of authority (see below) and scribe's kit",
+    "category": "Special Possessions",
+    "pick": [
+      "Scribe's tools: parchment, inks, pigments, vials, quills, ◇ a notebook, etc.",
+      "Avairy: thick gloves, bird hoods, tethers, seed, ◇ messenger birds, ◇ birdcages, etc",
+      "Carpenter's tools: chisels, files nails, pitch, ◇ prybars, ◇ saws, ◇◇ firkins, barrels, etc",
+      "Engineer's tools: rulers, tapes, rods, plumb-bobs, ◇ tripods, ◇ block & tackles, wheelbarrow, etc.",
+      "Smithy (or access to it): iron goods, ingots, thick gloves, ◇ tongs, ◇ bellows, an anvil, etc."
+    ]
+
+  },{
+    "id":"jspa",
+    "title":"Your symbol of authority",
+    "description": "Pick 1",
+    "category": "Special Possessions",
+    "pick": [
+      "◇◇ Black iron maul, utterly immune to all magic (close, forceful, awkward, +1 damage)",
+      "◇◇ Makerglass shield, etched with Aratis's symbol (indestructible, +1 armor, +1 Readiness on a Defend 7+",
+      "◇ Helm set with a dark ice \"jewel\" Protects your mind from magical influence."
+    ]
+  },
+  {
+    "id": "j001",
+    "title": "Aegis of Faith",
+    "description": "When you wield a shield, it can turn away spells, magical effects, and insubstantial attacks as if they were physical blows."
+  },
+  {
+    "id": "j003",
+    "title": "Bear Witness",
+    "description": "When you speak the truth with conviction and candor, none can doubt you. They might deny what you say, but in their hearts they recognize the truth."
+  },
+  {
+    "id": "j005",
+    "title": "Break Bread",
+    "description": "When you share a proper meal with someone and each of you eats their fill, each of you recovers 1d8 (extra) HP."
+  },
+  {
+    "id": "j007",
+    "title": "Bulwark",
+    "description": "When you Defend, you can spend 1 Readiness to stand fast, holding your position despite what befalls you."
+  },
+  {
+    "id": "j009",
+    "title": "Censure",
+    "description": "When you first denounce an individual in your presence as an agent of chaos or anathema to civilization, they pick 1:",
+    "outcomes": [
+      {
+        "range": "",
+        "text": "",
+        "bullets": [
+          "They are ashamed, and act accordingly",
+          "They are doubtful, and hesitate, pause",
+          "They are afraid, and seek to escape",
+          "They are enraged, and lash out predictably (the next roll against them has advantage)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j008",
+    "title": "Castigate (Requires level 2+, Censure)",
+    "description": "When you Censure someone, your voice deals 1d4 damage to them (near, loud, ignores armor)."
+  },
+  {
+    "id": "j010",
+    "title": "Chronicler of Stonetop",
+    "description": "When you write up detailed session notes and share them with the other players, hold +1 Diligence. You can spend 1 Diligence at any time to add +1 to a roll that you or a fellow player just made.",
+    "tracks": [
+      {
+        "name": "Diligence",
+        "max": 3,
+        "shape": "circle"
+      }
+    ]
+  },
+  {
+    "id": "j011",
+    "title": "For the Greater Good",
+    "description": "When you Persuade someone to act in defense of their community or civilization at large, you have advantage."
+  },
+  {
+    "id": "j012",
+    "title": "The Hammer and the Book (+Wisdom)",
+    "description": "When you strike a thing of supernatural chaos, roll +WIS:",
+    "outcomes": [
+      {
+        "range": "≥ 10",
+        "text": "Deal your damage and choose 1 from the list below:",
+        "bullets": [
+          "Deal +1d6 damage",
+          "Ignore the thing's armor or other defenses",
+          "Suppress one of its unnatural powers",
+          "Force it from its host"
+        ]
+      },
+      {
+        "range": "7-9",
+        "text": "Deal damage and choose 1, but you also expose yourself to harm or unwanted attention.",
+        "bullets": []
+      }
+    ]
+  },
+  {
+    "id": "j013",
+    "title": "Hound of Aratis",
+    "description": "When you Seek Insight, you can always ask \"What here is tainted by chaos?\" for free, even on a 6-."
+  },
+  {
+    "id": "j016",
+    "title": "Like a Dog with a Bone (Requires Hound of Aratis)",
+    "description": "When you attack something you know to be tainted by chaos, deal +1d6 damage."
+  },
+  {
+    "id": "j015",
+    "title": "Knowledge is Power",
+    "description": "When you roll 10+ to Know Things, you or an ally gain advantage on the next roll to act on what you learn."
+  },
+  {
+    "id": "j017",
+    "title": "Many Hands Make Light Work",
+    "description": "When you jump in to help another character who just rolled, tell us how and ask the GM what else is required or what the consequences will be. If you accept, increase your ally's roll by +1."
+  },
+  {
+    "id": "j006",
+    "title": "A Bundle of Sticks Unbroken (Requires Many Hands Make Light Work)",
+    "description": "When you Struggle as One, you and one ally of your choice have advantage."
+  },
+  {
+    "id": "j018",
+    "title": "Truth or Consequences",
+    "description": "When you look into someone's eyes and gaze upon their soul, you can ask their player, \"Are you lying or hiding something from me?\" and get an honest answer.",
+    "outcomes": [
+        {
+            "range": "",
+            "text": "If the answer is \"Yes,\" you have advantage on your next roll against them."
+        },
+        {
+            "range": "",
+            "text": "When you lie or otherwise deceive someone through words, you have disadvantage on your next roll against them."
+        }
+    ]
+  },
+  {
+    "id": "j004",
+    "title": "Binding Arbitration (Requires Truth or Consequences)",
+    "description": "When you bear witness to someone's promise or oath, henceforth:",
+    "outcomes": [
+        {
+            "text": "You may ask their player if they have kept their word. They must answer honestly. The character need not be present."
+        },
+        {
+            "text": "If they have broken their word, you gain advantage on all rolls against them until they admit their wrong and suffer an appropriate consequence (your call)."
+        }
+    ]
+  },
+  {
+    "id": "j019",
+    "title": "Vision Unclouded",
+    "description": "When you Seek Insight, you can always ask \"What here is hidden by illusion or magic?\" for free, even on a 6-."
+  },
+  {
+    "id": "j020",
+    "title": "Well-Read (+Wisdom)",
+    "description": "When you name the source in which you read about the matter at hand, roll +WIS to Know Things instead of +INT."
+  },
+  {
+    "id": "j021",
+    "title": "A Mighty Rampart (Requires level 6+; replaces Bulwark)",
+    "description": "When you hold Readiness (from Defend), you cannot be forced from your position. Also, you can spend 1 Readiness to completely ignore the effects/damage of an attack that you suffer.",
+    "weight": 1
+  },
+  {
+    "id": "j022",
+    "title": "Armistice (Requires level 6+ and Bear Witness)",
+    "description": "When you approach an enemy to negotiate in good faith, they will at least hear you out. Even the most debased and savage foe will delay violence until you've had your say.",
+    "weight": 1
+  },
+  {
+    "id": "j023",
+    "title": "Condemn (Requires level 6+ and Censure)",
+    "description": "When you Censure someone:",
+    "outcomes": [
+        {"text": "They are marked with a mystical brand that cannot be removed or hidden until you dismiss it."},
+        {"text": "Any intelligent creature who sees the mark recognizes the bearer as an agent of chaos and anathema to civilization"}
+    ],
+    "weight": 1
+  },
+  {
+    "id": "j025",
+    "title": "Proclamation (Requires level 6+ and Condemn)",
+    "description": "When you Censure, you may denounce a group or faction as long as you can clearly identify them. Apply the effects of Censure to every member of that group, regardless of distance.",
+    "weight": 1
+  },
+  {
+    "id": "j024",
+    "title": "Mirrorshield (Requires level 6+ and Aegis of Faith)",
+    "description": "When you Defend with a shield, you can spend 1 Readiness to intercept a magical force and redirect it to a different target (or none).",
+    "weight": 1
+  },
+  {
+    "id": "j027",
+    "title": "The Tower Eternal (Requires level 6+)",
+    "description": "When you Defy Danger against magic, treat a result of 6- as a 7-9.",
+    "weight": 1
+  },
+  {
+    "id": "ji",
+    "title": "Instinct (Choose 1)",
+    "description": "You can change on levelling or when appropriate story events affect you.",
+    "category": "Instinct",
+    "pickOne": [
+      "AMBITION - To increase your status or influence.",
+      "DISPASSION - To disregard emotion or sentiment.",
+      "HARMONY - To seek a path that makes everyone happy.",
+      "ORTHODOXY - To strictly adhere to rules and traditions.",
+      "ZEAL - To judge quickly and without doubt."
+    ]
+  }
+]
