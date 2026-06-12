@@ -10,24 +10,7 @@
       }
     ]
   },
-  
-
-SKIRMISHER
-When you enter a battle, answer the following questions:
-• Am I neither encumbered, nor wearing armor with the clumsy tag?
-• Have I scouted this threat?
-• Is there ample room to manoeuvre here?
-• Is the enemy much larger than I am?
-For each question you answered "yes" to, hold 1 Readiness. During the battle, you may spend a Readiness to accomplish one of the following, describing how you do it:
-• Draw an enemy's attention to you and lure them into a bad position.
-• Close the distance between you and an enemy before they can react.
-• Disengage from melee range of an enemy, avoiding any retaliation.
-• Evade a hazard on the battlefield without Defying Danger.
-
-
-
-
-{
+  {
     "id": "rbg2",
     "title": "Skirmisher",
     "category": "Background",
@@ -74,8 +57,7 @@ Mark 1 action at 1st level, then another at 3rd, 5th, 7th, and 9th.
           "Sense its emotional state",
           "Get a brief impression of what it senses",
           "Lend it your strength — lose 1d6 HP, and it regains an equal amount."
-        
-    ]
+        ]
   },
   {
     "id": "rsp",
