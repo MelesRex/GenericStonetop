@@ -11,7 +11,7 @@
     ]
   },
   {
-    "id": "rbg2",
+"id": "rbg2",
     "title": "Skirmisher",
     "category": "Background",
     "description": "When you enter a battle, answer the following questions:When you enter a battle, answer the following questions:",
@@ -40,15 +40,13 @@
     "id": "rbg3",
     "title": "Beast-Bonded (+Wisdom)",
     "category": "Background",
-    "description": "You grew up with people, but your soul is bound to a beast of the wild. You’re closer to it than to any person. How did this bond come about? How long ago?"
+    "description": "You grew up civilized, but your soul is bound to a beast of the wild. You're closer to it than to any man or woman. How did this bond come about? How long ago?",
     "outcomes": [
       {
         "text": "You start with the Animal Companion move. Go mark it now."
       },
       {
-        "text": "When you focus on your animal companion for a few moments, you can use any of the actions you’ve marked below, no matter the distance between you. 
-Mark 1 action at 1st level, then another at 3rd, 5th, 7th, and 9th.
-"
+        "text": "When you focus on your animal companion for a few moments, you can use any of the actions you've marked below, no matter the distance between you. Mark 1 action at 1st level, then another at 3rd, 5th, 7th, and 9th."
       }
     ],
     "pick": [
@@ -56,8 +54,9 @@ Mark 1 action at 1st level, then another at 3rd, 5th, 7th, and 9th.
           "Call it back to your side",
           "Sense its emotional state",
           "Get a brief impression of what it senses",
-          "Lend it your strength — lose 1d6 HP, and it regains an equal amount."
-        ]
+          "Lend it your strength—lose 1d6 HP, and it regains an equal amount"
+        
+    ]
   },
   {
     "id": "rsp",
