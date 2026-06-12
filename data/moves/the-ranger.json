@@ -10,27 +10,46 @@
       }
     ]
   },
-  {
+  
+
+SKIRMISHER
+When you enter a battle, answer the following questions:
+• Am I neither encumbered, nor wearing armor with the clumsy tag?
+• Have I scouted this threat?
+• Is there ample room to manoeuvre here?
+• Is the enemy much larger than I am?
+For each question you answered "yes" to, hold 1 Readiness. During the battle, you may spend a Readiness to accomplish one of the following, describing how you do it:
+• Draw an enemy's attention to you and lure them into a bad position.
+• Close the distance between you and an enemy before they can react.
+• Disengage from melee range of an enemy, avoiding any retaliation.
+• Evade a hazard on the battlefield without Defying Danger.
+
+
+
+
+{
     "id": "rbg2",
-    "title": "Wide Wanderer",
+    "title": "Skirmisher",
     "category": "Background",
-    "description": "You have travelled much of the known world and perhaps parts beyond. Add each of the following to the Neighbors list in the Stonetop playbook, choosing 1 trait for each:",
+    "description": "When you enter a battle, answer the following questions:When you enter a battle, answer the following questions:",
     "outcomes": [
       {
         "text": "",
         "bullets": [
-          "Ennis (from Marshedge)",
-          "Shahar (from Gordon's Delve)",
-          "Yannic (from the Hillfolk)",
-          "Tovia (from Lygos)",
-          "Sasca (from the northern Manmarch)"
-        ]
-      },
+          "Am I neither encumbered, nor wearing armor with the clumsy tag?",
+          "Have I scouted this threat?",
+          "Is the enemy much larger than I am?",
+},
       {
-        "text": "You start with the Mental Map move. Mark it now. When you Know Things about the wider world, you can roll +WIS instead of +INT."
-      },
+        "text": "For each question you answered "yes" to, hold 1 Readiness. During the battle, you may spend a Readiness to accomplish one of the following, describing how you do it:"
+    "outcomes": [
       {
-        "text": "When you arrive somewhere you've visited before (your call), tell the GM when you were last here, and the GM will tell you how it's changed."
+        "text": "",
+        "bullets": [
+          "Draw an enemy's attention to you and lure them into a bad position."
+          "Close the distance between you and an enemy before they can react."         
+          "Disengage from melee range of an enemy, avoiding any retaliation."
+          "Evade a hazard on the battlefield without Defying Danger."
       }
     ]
   },
@@ -38,13 +57,15 @@
     "id": "rbg3",
     "title": "Beast-Bonded (+Wisdom)",
     "category": "Background",
-    "description": "You grew up civilized, but your soul is bound to a beast of the wild. You're closer to it than to any man or woman. How did this bond come about? How long ago?",
+    "description": "You grew up with people, but your soul is bound to a beast of the wild. You’re closer to it than to any person. How did this bond come about? How long ago?"
     "outcomes": [
       {
         "text": "You start with the Animal Companion move. Go mark it now."
       },
       {
-        "text": "When you focus on your animal companion for a few moments, you can use any of the actions you've marked below, no matter the distance between you. Mark 1 action at 1st level, then another at 3rd, 5th, 7th, and 9th."
+        "text": "When you focus on your animal companion for a few moments, you can use any of the actions you’ve marked below, no matter the distance between you. 
+Mark 1 action at 1st level, then another at 3rd, 5th, 7th, and 9th.
+"
       }
     ],
     "pick": [
@@ -52,7 +73,7 @@
           "Call it back to your side",
           "Sense its emotional state",
           "Get a brief impression of what it senses",
-          "Lend it your strength—lose 1d6 HP, and it regains an equal amount"
+          "Lend it your strength — lose 1d6 HP, and it regains an equal amount."
         
     ]
   },
